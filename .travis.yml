@@ -30,6 +30,6 @@ install:
 script:
   - pyinstaller --onefile hello.py
   - sleep 1  # Allow pyinstaller to finish writing to stdout
-  - ls dist
+  - ls -l dist
   - dist/hello.exe
   - echo "Did something print?!?"
