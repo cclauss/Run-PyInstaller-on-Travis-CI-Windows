@@ -29,7 +29,7 @@ install:
 
 script:
   - pyinstaller --onefile hello.py
-  - sleep 2  # Allow pyinstaller to finish writing to stdout
+  - sleep 1  # Allow pyinstaller to finish writing to stdout
   - ls dist
   - dist/hello.exe
   - echo "Did something print?!?"
