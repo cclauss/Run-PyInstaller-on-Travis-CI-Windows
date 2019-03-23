@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-print('Hello world!')
+import sys
+
+print('Hello Python {}.{}.{}'.format(*sys.version_info))
